@@ -1,3 +1,11 @@
+/*
+Project: DVD Rental Business Performance Analysis
+Author: Burcu Süzer
+
+Business Question:
+Which customers have the highest lifetime value?
+*/
+
 WITH customer_metrics AS (
     SELECT
         c.customer_id,
