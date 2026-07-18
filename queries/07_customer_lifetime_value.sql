@@ -6,8 +6,6 @@ Business Question:
 Who are the top 10 customers by lifetime value (CLV)?
 */
 
-
-
 WITH customer_metrics AS (
     SELECT  
         c.customer_id,
