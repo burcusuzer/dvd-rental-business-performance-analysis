@@ -102,10 +102,10 @@ rental_ranges AS (
         customer_id,
         total_rentals,
         CASE 
-            WHEN total_rentals < 20 THEN '1-19'
-            WHEN total_rentals < 30 THEN '20-29'
-            WHEN total_rentals < 40 THEN '30-39'
-            ELSE '40+'
+            WHEN total_rentals < 20 THEN '1-19 Rentals'
+            WHEN total_rentals < 30 THEN '20-29 Rentals'
+            WHEN total_rentals < 40 THEN '30-39 Rentals'
+            ELSE '40+ Rentals'
         END AS rental_range,
         CASE 
             WHEN total_rentals < 20 THEN 1
