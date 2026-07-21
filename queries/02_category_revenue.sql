@@ -5,6 +5,7 @@ Author: Burcu Süzer
 Business Question:
 How do film categories rank by total revenue?
 */
+
 WITH category_metrics AS 
 (
     SELECT
@@ -13,13 +14,17 @@ WITH category_metrics AS
         SUM(p.amount) AS total_revenue
     FROM
         category c
-    JOIN film_category fc
+    JOIN 
+        film_category fc
         USING (category_id)
-    JOIN inventory i
+    JOIN 
+        inventory i
         USING (film_id)
-    JOIN rental r
+    JOIN 
+        rental r
         USING (inventory_id)
-    JOIN payment p
+    JOIN 
+        payment p
         USING (rental_id)
     GROUP BY
         c.category_id,
@@ -39,6 +44,7 @@ ORDER BY
 Bonus Business Question:
 What percentage of the total revenue does each category generate?
 */
+
 WITH category_metrics AS (
     SELECT
         c.category_id,
@@ -46,13 +52,17 @@ WITH category_metrics AS (
         SUM(p.amount) AS total_revenue
     FROM
         category c
-    JOIN film_category fc
+    JOIN 
+        film_category fc
         USING (category_id)
-    JOIN inventory i
+    JOIN 
+        inventory i
         USING (film_id)
-    JOIN rental r
+    JOIN 
+        rental r
         USING (inventory_id)
-    JOIN payment p
+    JOIN 
+        payment p
         USING (rental_id)
     GROUP BY
         c.category_id,

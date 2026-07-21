@@ -1,0 +1,5 @@
+"spending_quartile","spending_segment","customer_count","total_revenue","average_spending","revenue_share_pct"
+1,Top Spenders,150,21876.45,145.84,32.45
+2,High Spenders,150,17818.77,118.79,26.43
+3,Medium Spenders,150,15425.27,102.84,22.88
+4,Low Spenders,149,12286.07,82.46,18.23

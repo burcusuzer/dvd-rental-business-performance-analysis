@@ -13,7 +13,8 @@ WITH customer_metrics AS (
         SUM(p.amount) AS total_revenue
     FROM
         customer c
-    JOIN payment p
+    JOIN 
+        payment p
         ON c.customer_id = p.customer_id
     GROUP BY
         c.customer_id,
@@ -53,7 +54,8 @@ WITH customer_metrics AS (
         SUM(p.amount) AS total_revenue
     FROM
         customer c
-    JOIN payment p
+    JOIN 
+        payment p
         ON c.customer_id = p.customer_id
     GROUP BY
         c.customer_id,

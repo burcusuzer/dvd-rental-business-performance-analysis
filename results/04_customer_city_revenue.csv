@@ -1,2 +1,381 @@
-customer_city,revenue,ranking
-"Kowloon and New Kowloon",711.42,1
+"city_rank","customer_city","total_revenue"
+1,Kowloon and New Kowloon,711.42
+2,Warren,547.79
+3,York,531.70
+4,Pontianak,504.92
+5,Gijón,498.89
+6,Kanchrapara,488.85
+7,Gorontalo,467.89
+8,Vilnius,462.92
+9,Ezhou,453.88
+10,Lungtan,449.96
+11,Usak,435.95
+12,Mysore,435.92
+13,Novi Sad,433.93
+14,Shahr-e Kord,421.04
+15,Binzhou,401.02
+16,Callao,397.17
+17,Mannheim,393.10
+18,Ondo,391.05
+19,Jhansi,386.07
+20,Enshi,383.12
+21,Hubli-Dharwad,364.21
+22,Chiayi,363.08
+23,Shubra al-Khayma,357.11
+24,Coquimbo,355.06
+25,Santa Brbara dOeste,349.20
+26,Charlotte Amalie,347.16
+27,Tanshui,337.25
+28,Plock,329.28
+29,Adana,327.24
+30,Pachuca de Soto,327.20
+31,Kursk,326.18
+32,Ocumare del Tuy,321.24
+33,Firozabad,311.28
+34,Águas Lindas de Goiás,311.25
+35,Sanya,311.17
+36,Yantai,310.30
+37,Satna,308.28
+38,Bat Yam,303.33
+39,Tanza,303.24
+40,Sivas,302.25
+41,Tokat,300.22
+42,Cumaná,299.28
+43,Siegen,296.26
+44,Naju,293.27
+45,Deba Habe,291.29
+46,Tórshavn,290.33
+47,Czestochowa,290.29
+48,San Felipe de Puerto Plata,288.37
+49,San Felipe del Progreso,285.20
+50,Ife,284.32
+51,Tanauan,284.31
+52,Banjul,282.40
+53,Bradford,282.30
+54,Southend-on-Sea,279.32
+55,Hanoi,278.29
+56,Saint Louis,269.43
+57,Birgunj,268.36
+58,Duisburg,266.43
+59,Sultanbeyli,266.34
+60,Portoviejo,266.29
+61,Taizz,266.28
+62,Peoria,263.44
+63,Kaliningrad,262.41
+64,Fengshan,261.31
+65,Kaduna,259.44
+66,Masqat,255.46
+67,Mahajanga,251.43
+68,Changzhou,250.44
+69,Nam Dinh,250.41
+70,Paarl,250.39
+71,Huejutla de Reyes,248.43
+72,Bhavnagar,248.40
+73,Eskisehir,246.43
+74,Garland,246.42
+75,Ibirité,245.43
+76,Moscow,244.43
+77,Funafuti,244.42
+78,Sharja,244.41
+79,Pingxiang,243.47
+80,Allende,242.44
+81,Ilorin,242.42
+82,Oulu,241.46
+83,Saarbrücken,237.48
+84,Okara,235.49
+85,Grand Prairie,234.50
+86,Bagé,233.40
+87,Erlangen,230.45
+88,Kakamigahara,230.42
+89,Bandar Seri Begawan,229.43
+90,Udaipur,228.52
+91,Amroha,226.47
+92,Tsaotun,226.45
+92,Benguela,226.45
+92,Lincoln,226.45
+95,Sunnyvale,226.41
+96,Maringá,226.40
+97,Ríobamba,225.49
+98,Miraj,224.47
+99,Serpuhov,222.46
+100,Aparecida de Goiânia,221.48
+101,Ivanovo,221.45
+102,Matsue,220.42
+103,Merlo,218.49
+104,Liaocheng,217.45
+105,Nagareyama,216.55
+106,Rancagua,216.54
+107,Cianjur,216.52
+108,London,213.55
+109,Pangkal Pinang,209.52
+110,al-Qadarif,206.45
+111,Le Mans,205.53
+112,Brockton,204.47
+113,Città del Vaticano,204.44
+114,Bergamo,203.49
+114,San Miguel de Tucumán,203.49
+116,Buenaventura,203.48
+117,Rampur,203.47
+118,Aden,202.51
+119,Santo André,202.45
+120,Esfahan,202.43
+121,Tama,201.55
+122,Akishima,198.53
+123,Hagonoy,198.51
+124,Sogamoso,197.52
+125,Goiânia,197.50
+126,Tafuna,196.54
+127,Patras,196.53
+128,Kütahya,196.49
+129,Osmaniye,195.47
+130,Elista,194.51
+131,Halifax,194.49
+132,Poços de Caldas,193.57
+133,Probolinggo,192.57
+134,Usolje-Sibirskoje,192.50
+134,Apeldoorn,192.50
+136,Wroclaw,191.56
+137,Sucre,190.54
+138,Avellaneda,188.54
+139,Ciparay,188.52
+140,Tambaram,187.56
+140,Changhwa,187.56
+140,Uttarpara-Kotrung,187.56
+143,Bhusawal,184.55
+144,Batman,184.50
+145,Dzerzinsk,183.51
+146,Ljubertsy,180.56
+147,Bratislava,179.56
+147,Nagaon,179.56
+149,Ashgabat,178.55
+150,Yuncheng,176.60
+151,Pune,175.61
+152,Novotšerkassk,175.58
+153,Garden Grove,175.54
+154,Kermanshah,174.66
+155,Amersfoort,169.65
+156,Ueda,167.67
+157,Haining,166.65
+158,Gingoog,164.64
+159,Mit Ghamr,159.72
+160,Niznekamsk,159.68
+161,Anápolis,159.60
+162,Meixian,155.68
+163,Konotop,154.60
+164,Effon-Alaiye,152.68
+164,Shimoga,152.68
+166,San Juan Bautista Tuxtepec,152.65
+167,Florencia,151.67
+168,Woodridge,146.69
+169,Mandaluyong,145.70
+170,Salala,145.67
+171,Tianjin,144.70
+172,Sincelejo,144.67
+173,Arlington,144.66
+174,Kirovo-Tšepetsk,143.71
+175,Santa Fé,142.70
+176,Zhezqazghan,142.66
+177,Loja,141.71
+178,Touliu,141.67
+179,Santiago de Compostela,141.66
+180,Korolev,140.68
+181,Songkhla,140.64
+182,Tete,139.71
+182,Stockport,139.71
+184,Caracas,139.70
+185,José Azueta,139.67
+186,Kingstown,138.71
+187,Jelets,138.67
+188,Rockford,138.66
+189,Otsu,138.62
+190,Yamuna Nagar,137.70
+191,Chisinau,137.69
+192,Hohhot,137.66
+193,Vicente López,136.73
+194,Sokoto,136.64
+195,Malmö,135.74
+196,Najafabad,135.70
+196,Springs,135.70
+198,Lancaster,135.68
+199,Balašiha,134.73
+200,Addis Abeba,134.68
+201,Rizhao,133.72
+202,San Lorenzo,133.71
+203,Siliguri (Shiliguri),132.70
+203,Mwene-Ditu,132.70
+205,Battambang,131.73
+206,Hamilton,131.70
+207,Smolensk,131.67
+208,Manchester,129.72
+209,Tarlac,129.70
+209,Jalib al-Shuyukh,129.70
+209,Yaoundé,129.70
+212,Jastrzebie-Zdrój,129.64
+213,Rajkot,128.72
+214,Bhopal,128.71
+215,Bahía Blanca,127.75
+216,Valle de Santiago,127.71
+216,Cayenne,127.71
+218,A Coruña (La Coruña),127.70
+219,al-Ayn,127.68
+220,Monywa,127.66
+221,Jinzhou,126.73
+222,Simferopol,126.72
+223,Tabora,126.70
+224,Cuauhtémoc,126.68
+224,Cheju,126.68
+226,Udine,125.76
+227,´s-Hertogenbosch,124.74
+228,Sullana,124.72
+229,Lubumbashi,124.67
+230,Ciudad del Este,122.74
+231,Munger (Monghyr),122.72
+232,Shenzhen,122.71
+232,Compton,122.71
+234,Vila Velha,122.69
+235,Saint-Denis,121.69
+236,Gatineau,120.69
+237,Bamenda,119.74
+238,Lausanne,119.73
+239,Jamalpur,119.72
+240,Cuautla,119.71
+241,Sousse,119.70
+242,Sumqayit,118.75
+242,Cavite,118.75
+244,Córdoba,118.73
+245,Boa Vista,118.72
+245,Arecibo,118.72
+247,Mandi Bahauddin,118.68
+248,Purwakarta,118.67
+249,Tabriz,117.77
+250,Ezeiza,117.76
+251,Chandrapur,117.75
+252,Bucuresti,117.71
+253,Richmond Hill,116.78
+254,Madiun,115.74
+255,Haldia,115.71
+255,Cam Ranh,115.71
+257,Atlixco,115.70
+257,Botshabelo,115.70
+257,Tangail,115.70
+260,Surakarta,114.73
+261,Izumisano,114.72
+261,Nador,114.72
+261,Kuching,114.72
+264,Ranchi,113.78
+265,Zhoushan,113.74
+265,Qinhuangdao,113.74
+267,Klerksdorp,113.69
+268,Patiala,113.65
+269,Salé,112.75
+270,Hino,112.74
+271,Bayugan,112.73
+272,Tieli,112.70
+273,Székesfehérvár,111.75
+274,Inegöl,111.74
+275,Halle/Saale,111.73
+275,Faaa,111.73
+277,Tel Aviv-Jaffa,111.72
+278,Okinawa,111.68
+279,Nyeri,110.74
+280,Pemalang,110.72
+281,Laohekou,110.71
+282,Omiya,110.66
+283,Beira,109.75
+284,Junan,109.74
+285,Yerevan,109.73
+286,Bydgoszcz,109.72
+287,Papeete,108.78
+288,Sterling Heights,108.76
+289,Adoni,108.74
+290,Rio Claro,107.77
+291,Myingyan,107.76
+292,Juárez,107.74
+293,Katihar,107.73
+294,Tallahassee,107.71
+295,Nuuk,107.70
+296,Yingkou,106.77
+297,Kurgan,106.76
+298,Batna,106.75
+299,Bhimavaram,106.65
+300,Bilbays,105.75
+301,Cape Coral,104.77
+302,Lhokseumawe,104.74
+302,Augusta-Richmond County,104.74
+302,Halisahar,104.74
+305,Barcelona,103.76
+306,Roanoke,103.75
+306,Kamjanets-Podilskyi,103.75
+306,Bern,103.75
+309,Xi´angfan,103.74
+310,Lengshuijiang,102.76
+311,Pjatigorsk,102.74
+312,Skikda,101.78
+313,Zaoyang,101.74
+314,Southampton,100.76
+315,Imus,100.75
+316,Taguig,100.72
+317,Cabuyao,100.69
+318,Pak Kret,99.78
+319,Tabuk,99.77
+320,al-Hawiya,99.75
+321,El Alto,99.73
+322,Tongliao,98.78
+323,Karnal,98.73
+324,El Monte,97.79
+325,Blumenau,97.76
+326,Liepaja,97.74
+327,Araçatuba,97.72
+328,Antofagasta,96.78
+329,São Leopoldo,96.76
+330,Haiphong,96.72
+331,Kalisz,95.78
+332,Valparai,95.77
+332,Daugavpils,95.77
+334,Weifang,95.75
+335,Sungai Petani,95.72
+336,Athenai,94.82
+337,Berhampore (Baharampur),94.78
+338,Basel,93.75
+339,Kolpino,92.73
+340,Chatsworth,91.79
+340,Sorocaba,91.79
+342,Baybay,91.78
+343,Benin City,91.77
+344,Mexicali,91.76
+345,Luziânia,91.75
+346,Denizli,91.70
+347,Pyongyang,90.79
+348,Chapra,89.79
+349,Newcastle,89.78
+350,Alvorada,89.75
+351,Jaipur,89.74
+352,Bislig,88.80
+353,Guadalajara,88.79
+354,Vinh,87.82
+355,Kilis,86.81
+355,Nakhon Sawan,86.81
+357,Laiwu,85.79
+358,Poá,83.79
+358,Yuzhou,83.79
+360,Idfu,82.79
+361,Tšeboksary,82.76
+362,Emeishan,80.83
+363,San Bernardino,80.82
+364,Naçala-Porto,80.79
+365,Huai´an,80.77
+366,Okayama,78.80
+367,Syktyvkar,77.82
+368,Shikarpur,77.77
+369,Nabereznyje Tšelny,76.77
+370,Rustenburg,74.80
+371,Lapu-Lapu,73.80
+372,Omdurman,73.79
+373,Balurghat,73.76
+374,Fuzhou,71.80
+375,Kurashiki,71.77
+376,Tuguegarao,70.82
+377,Mwanza,68.79
+378,Kimberley,66.84
+379,Urawa,62.85
+380,Vitória de Santo Antão,58.86

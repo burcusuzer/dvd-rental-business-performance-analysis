@@ -1,2 +1,2 @@
-city,store_id,revenue,ranking
-Pemalang,2,33924.06,1
+"store_rank","store_id","city","total_revenue"
+1,2,Pemalang,33924.06

@@ -1,381 +1,381 @@
-customer_city,revenue,ranking,revenue_share_pct
-"Kowloon and New Kowloon",711.42,1,1.06
-Warren,547.79,2,0.81
-York,531.70,3,0.79
-Pontianak,504.92,4,0.75
-Gijón,498.89,5,0.74
-Kanchrapara,488.85,6,0.73
-Gorontalo,467.89,7,0.69
-Vilnius,462.92,8,0.69
-Ezhou,453.88,9,0.67
-Lungtan,449.96,10,0.67
-Usak,435.95,11,0.65
-Mysore,435.92,12,0.65
-"Novi Sad",433.93,13,0.64
-"Shahr-e Kord",421.04,14,0.62
-Binzhou,401.02,15,0.59
-Callao,397.17,16,0.59
-Mannheim,393.10,17,0.58
-Ondo,391.05,18,0.58
-Jhansi,386.07,19,0.57
-Enshi,383.12,20,0.57
-Hubli-Dharwad,364.21,21,0.54
-Chiayi,363.08,22,0.54
-"Shubra al-Khayma",357.11,23,0.53
-Coquimbo,355.06,24,0.53
-"Santa Brbara dOeste",349.20,25,0.52
-"Charlotte Amalie",347.16,26,0.52
-Tanshui,337.25,27,0.50
-Plock,329.28,28,0.49
-Adana,327.24,29,0.49
-"Pachuca de Soto",327.20,30,0.49
-Kursk,326.18,31,0.48
-"Ocumare del Tuy",321.24,32,0.48
-Firozabad,311.28,33,0.46
-"Águas Lindas de Goiás",311.25,34,0.46
-Sanya,311.17,35,0.46
-Yantai,310.30,36,0.46
-Satna,308.28,37,0.46
-"Bat Yam",303.33,38,0.45
-Tanza,303.24,39,0.45
-Sivas,302.25,40,0.45
-Tokat,300.22,41,0.45
-Cumaná,299.28,42,0.44
-Siegen,296.26,43,0.44
-Naju,293.27,44,0.44
-"Deba Habe",291.29,45,0.43
-Tórshavn,290.33,46,0.43
-Czestochowa,290.29,47,0.43
-"San Felipe de Puerto Plata",288.37,48,0.43
-"San Felipe del Progreso",285.20,49,0.42
-Ife,284.32,50,0.42
-Tanauan,284.31,51,0.42
-Banjul,282.40,52,0.42
-Bradford,282.30,53,0.42
-Southend-on-Sea,279.32,54,0.41
-Hanoi,278.29,55,0.41
-"Saint Louis",269.43,56,0.40
-Birgunj,268.36,57,0.40
-Duisburg,266.43,58,0.40
-Sultanbeyli,266.34,59,0.40
-Portoviejo,266.29,60,0.40
-Taizz,266.28,61,0.40
-Peoria,263.44,62,0.39
-Kaliningrad,262.41,63,0.39
-Fengshan,261.31,64,0.39
-Kaduna,259.44,65,0.38
-Masqat,255.46,66,0.38
-Mahajanga,251.43,67,0.37
-Changzhou,250.44,68,0.37
-"Nam Dinh",250.41,69,0.37
-Paarl,250.39,70,0.37
-"Huejutla de Reyes",248.43,71,0.37
-Bhavnagar,248.40,72,0.37
-Eskisehir,246.43,73,0.37
-Garland,246.42,74,0.37
-Ibirité,245.43,75,0.36
-Moscow,244.43,76,0.36
-Funafuti,244.42,77,0.36
-Sharja,244.41,78,0.36
-Pingxiang,243.47,79,0.36
-Allende,242.44,80,0.36
-Ilorin,242.42,81,0.36
-Oulu,241.46,82,0.36
-Saarbrücken,237.48,83,0.35
-Okara,235.49,84,0.35
-"Grand Prairie",234.50,85,0.35
-Bagé,233.40,86,0.35
-Erlangen,230.45,87,0.34
-Kakamigahara,230.42,88,0.34
-"Bandar Seri Begawan",229.43,89,0.34
-Udaipur,228.52,90,0.34
-Amroha,226.47,91,0.34
-Tsaotun,226.45,92,0.34
-Benguela,226.45,92,0.34
-Lincoln,226.45,92,0.34
-Sunnyvale,226.41,95,0.34
-Maringá,226.40,96,0.34
-Ríobamba,225.49,97,0.33
-Miraj,224.47,98,0.33
-Serpuhov,222.46,99,0.33
-"Aparecida de Goiânia",221.48,100,0.33
-Ivanovo,221.45,101,0.33
-Matsue,220.42,102,0.33
-Merlo,218.49,103,0.32
-Liaocheng,217.45,104,0.32
-Nagareyama,216.55,105,0.32
-Rancagua,216.54,106,0.32
-Cianjur,216.52,107,0.32
-London,213.55,108,0.32
-"Pangkal Pinang",209.52,109,0.31
-al-Qadarif,206.45,110,0.31
-"Le Mans",205.53,111,0.30
-Brockton,204.47,112,0.30
-"Città del Vaticano",204.44,113,0.30
-Bergamo,203.49,114,0.30
-"San Miguel de Tucumán",203.49,114,0.30
-Buenaventura,203.48,116,0.30
-Rampur,203.47,117,0.30
-Aden,202.51,118,0.30
-"Santo André",202.45,119,0.30
-Esfahan,202.43,120,0.30
-Tama,201.55,121,0.30
-Akishima,198.53,122,0.29
-Hagonoy,198.51,123,0.29
-Sogamoso,197.52,124,0.29
-Goiânia,197.50,125,0.29
-Tafuna,196.54,126,0.29
-Patras,196.53,127,0.29
-Kütahya,196.49,128,0.29
-Osmaniye,195.47,129,0.29
-Elista,194.51,130,0.29
-Halifax,194.49,131,0.29
-"Poços de Caldas",193.57,132,0.29
-Probolinggo,192.57,133,0.29
-Usolje-Sibirskoje,192.50,134,0.29
-Apeldoorn,192.50,134,0.29
-Wroclaw,191.56,136,0.28
-Sucre,190.54,137,0.28
-Avellaneda,188.54,138,0.28
-Ciparay,188.52,139,0.28
-Tambaram,187.56,140,0.28
-Changhwa,187.56,140,0.28
-Uttarpara-Kotrung,187.56,140,0.28
-Bhusawal,184.55,143,0.27
-Batman,184.50,144,0.27
-Dzerzinsk,183.51,145,0.27
-Ljubertsy,180.56,146,0.27
-Bratislava,179.56,147,0.27
-Nagaon,179.56,147,0.27
-Ashgabat,178.55,149,0.26
-Yuncheng,176.60,150,0.26
-Pune,175.61,151,0.26
-Novotšerkassk,175.58,152,0.26
-"Garden Grove",175.54,153,0.26
-Kermanshah,174.66,154,0.26
-Amersfoort,169.65,155,0.25
-Ueda,167.67,156,0.25
-Haining,166.65,157,0.25
-Gingoog,164.64,158,0.24
-"Mit Ghamr",159.72,159,0.24
-Niznekamsk,159.68,160,0.24
-Anápolis,159.60,161,0.24
-Meixian,155.68,162,0.23
-Konotop,154.60,163,0.23
-Effon-Alaiye,152.68,164,0.23
-Shimoga,152.68,164,0.23
-"San Juan Bautista Tuxtepec",152.65,166,0.23
-Florencia,151.67,167,0.23
-Woodridge,146.69,168,0.22
-Mandaluyong,145.70,169,0.22
-Salala,145.67,170,0.22
-Tianjin,144.70,171,0.21
-Sincelejo,144.67,172,0.21
-Arlington,144.66,173,0.21
-Kirovo-Tšepetsk,143.71,174,0.21
-"Santa Fé",142.70,175,0.21
-Zhezqazghan,142.66,176,0.21
-Loja,141.71,177,0.21
-Touliu,141.67,178,0.21
-"Santiago de Compostela",141.66,179,0.21
-Korolev,140.68,180,0.21
-Songkhla,140.64,181,0.21
-Tete,139.71,182,0.21
-Stockport,139.71,182,0.21
-Caracas,139.70,184,0.21
-"José Azueta",139.67,185,0.21
-Kingstown,138.71,186,0.21
-Jelets,138.67,187,0.21
-Rockford,138.66,188,0.21
-Otsu,138.62,189,0.21
-"Yamuna Nagar",137.70,190,0.20
-Chisinau,137.69,191,0.20
-Hohhot,137.66,192,0.20
-"Vicente López",136.73,193,0.20
-Sokoto,136.64,194,0.20
-Malmö,135.74,195,0.20
-Najafabad,135.70,196,0.20
-Springs,135.70,196,0.20
-Lancaster,135.68,198,0.20
-Balašiha,134.73,199,0.20
-"Addis Abeba",134.68,200,0.20
-Rizhao,133.72,201,0.20
-"San Lorenzo",133.71,202,0.20
-"Siliguri (Shiliguri)",132.70,203,0.20
-Mwene-Ditu,132.70,203,0.20
-Battambang,131.73,205,0.20
-Hamilton,131.70,206,0.20
-Smolensk,131.67,207,0.20
-Manchester,129.72,208,0.19
-Tarlac,129.70,209,0.19
-"Jalib al-Shuyukh",129.70,209,0.19
-Yaoundé,129.70,209,0.19
-Jastrzebie-Zdrój,129.64,212,0.19
-Rajkot,128.72,213,0.19
-Bhopal,128.71,214,0.19
-"Bahía Blanca",127.75,215,0.19
-"Valle de Santiago",127.71,216,0.19
-Cayenne,127.71,216,0.19
-"A Coruña (La Coruña)",127.70,218,0.19
-al-Ayn,127.68,219,0.19
-Monywa,127.66,220,0.19
-Jinzhou,126.73,221,0.19
-Simferopol,126.72,222,0.19
-Tabora,126.70,223,0.19
-Cuauhtémoc,126.68,224,0.19
-Cheju,126.68,224,0.19
-Udine,125.76,226,0.19
-´s-Hertogenbosch,124.74,227,0.19
-Sullana,124.72,228,0.19
-Lubumbashi,124.67,229,0.18
-"Ciudad del Este",122.74,230,0.18
-"Munger (Monghyr)",122.72,231,0.18
-Shenzhen,122.71,232,0.18
-Compton,122.71,232,0.18
-"Vila Velha",122.69,234,0.18
-Saint-Denis,121.69,235,0.18
-Gatineau,120.69,236,0.18
-Bamenda,119.74,237,0.18
-Lausanne,119.73,238,0.18
-Jamalpur,119.72,239,0.18
-Cuautla,119.71,240,0.18
-Sousse,119.70,241,0.18
-Sumqayit,118.75,242,0.18
-Cavite,118.75,242,0.18
-Córdoba,118.73,244,0.18
-"Boa Vista",118.72,245,0.18
-Arecibo,118.72,245,0.18
-"Mandi Bahauddin",118.68,247,0.18
-Purwakarta,118.67,248,0.18
-Tabriz,117.77,249,0.17
-Ezeiza,117.76,250,0.17
-Chandrapur,117.75,251,0.17
-Bucuresti,117.71,252,0.17
-"Richmond Hill",116.78,253,0.17
-Madiun,115.74,254,0.17
-Haldia,115.71,255,0.17
-"Cam Ranh",115.71,255,0.17
-Atlixco,115.70,257,0.17
-Botshabelo,115.70,257,0.17
-Tangail,115.70,257,0.17
-Surakarta,114.73,260,0.17
-Izumisano,114.72,261,0.17
-Nador,114.72,261,0.17
-Kuching,114.72,261,0.17
-Ranchi,113.78,264,0.17
-Zhoushan,113.74,265,0.17
-Qinhuangdao,113.74,265,0.17
-Klerksdorp,113.69,267,0.17
-Patiala,113.65,268,0.17
-Salé,112.75,269,0.17
-Hino,112.74,270,0.17
-Bayugan,112.73,271,0.17
-Tieli,112.70,272,0.17
-Székesfehérvár,111.75,273,0.17
-Inegöl,111.74,274,0.17
-Halle/Saale,111.73,275,0.17
-Faaa,111.73,275,0.17
-"Tel Aviv-Jaffa",111.72,277,0.17
-Okinawa,111.68,278,0.17
-Nyeri,110.74,279,0.16
-Pemalang,110.72,280,0.16
-Laohekou,110.71,281,0.16
-Omiya,110.66,282,0.16
-Beira,109.75,283,0.16
-Junan,109.74,284,0.16
-Yerevan,109.73,285,0.16
-Bydgoszcz,109.72,286,0.16
-Papeete,108.78,287,0.16
-"Sterling Heights",108.76,288,0.16
-Adoni,108.74,289,0.16
-"Rio Claro",107.77,290,0.16
-Myingyan,107.76,291,0.16
-Juárez,107.74,292,0.16
-Katihar,107.73,293,0.16
-Tallahassee,107.71,294,0.16
-Nuuk,107.70,295,0.16
-Yingkou,106.77,296,0.16
-Kurgan,106.76,297,0.16
-Batna,106.75,298,0.16
-Bhimavaram,106.65,299,0.16
-Bilbays,105.75,300,0.16
-"Cape Coral",104.77,301,0.16
-Lhokseumawe,104.74,302,0.16
-"Augusta-Richmond County",104.74,302,0.16
-Halisahar,104.74,302,0.16
-Barcelona,103.76,305,0.15
-Roanoke,103.75,306,0.15
-Kamjanets-Podilskyi,103.75,306,0.15
-Bern,103.75,306,0.15
-Xi´angfan,103.74,309,0.15
-Lengshuijiang,102.76,310,0.15
-Pjatigorsk,102.74,311,0.15
-Skikda,101.78,312,0.15
-Zaoyang,101.74,313,0.15
-Southampton,100.76,314,0.15
-Imus,100.75,315,0.15
-Taguig,100.72,316,0.15
-Cabuyao,100.69,317,0.15
-"Pak Kret",99.78,318,0.15
-Tabuk,99.77,319,0.15
-al-Hawiya,99.75,320,0.15
-"El Alto",99.73,321,0.15
-Tongliao,98.78,322,0.15
-Karnal,98.73,323,0.15
-"El Monte",97.79,324,0.15
-Blumenau,97.76,325,0.15
-Liepaja,97.74,326,0.15
-Araçatuba,97.72,327,0.14
-Antofagasta,96.78,328,0.14
-"São Leopoldo",96.76,329,0.14
-Haiphong,96.72,330,0.14
-Kalisz,95.78,331,0.14
-Valparai,95.77,332,0.14
-Daugavpils,95.77,332,0.14
-Weifang,95.75,334,0.14
-"Sungai Petani",95.72,335,0.14
-Athenai,94.82,336,0.14
-"Berhampore (Baharampur)",94.78,337,0.14
-Basel,93.75,338,0.14
-Kolpino,92.73,339,0.14
-Chatsworth,91.79,340,0.14
-Sorocaba,91.79,340,0.14
-Baybay,91.78,342,0.14
-"Benin City",91.77,343,0.14
-Mexicali,91.76,344,0.14
-Luziânia,91.75,345,0.14
-Denizli,91.70,346,0.14
-Pyongyang,90.79,347,0.13
-Chapra,89.79,348,0.13
-Newcastle,89.78,349,0.13
-Alvorada,89.75,350,0.13
-Jaipur,89.74,351,0.13
-Bislig,88.80,352,0.13
-Guadalajara,88.79,353,0.13
-Vinh,87.82,354,0.13
-Kilis,86.81,355,0.13
-"Nakhon Sawan",86.81,355,0.13
-Laiwu,85.79,357,0.13
-Poá,83.79,358,0.12
-Yuzhou,83.79,358,0.12
-Idfu,82.79,360,0.12
-Tšeboksary,82.76,361,0.12
-Emeishan,80.83,362,0.12
-"San Bernardino",80.82,363,0.12
-Naçala-Porto,80.79,364,0.12
-Huai´an,80.77,365,0.12
-Okayama,78.80,366,0.12
-Syktyvkar,77.82,367,0.12
-Shikarpur,77.77,368,0.12
-"Nabereznyje Tšelny",76.77,369,0.11
-Rustenburg,74.80,370,0.11
-Lapu-Lapu,73.80,371,0.11
-Omdurman,73.79,372,0.11
-Balurghat,73.76,373,0.11
-Fuzhou,71.80,374,0.11
-Kurashiki,71.77,375,0.11
-Tuguegarao,70.82,376,0.11
-Mwanza,68.79,377,0.10
-Kimberley,66.84,378,0.10
-Urawa,62.85,379,0.09
-"Vitória de Santo Antão",58.86,380,0.09
+"city_rank","customer_city","total_revenue","revenue_share_pct"
+1,Kowloon and New Kowloon,711.42,1.06
+2,Warren,547.79,0.81
+3,York,531.70,0.79
+4,Pontianak,504.92,0.75
+5,Gijón,498.89,0.74
+6,Kanchrapara,488.85,0.73
+7,Gorontalo,467.89,0.69
+8,Vilnius,462.92,0.69
+9,Ezhou,453.88,0.67
+10,Lungtan,449.96,0.67
+11,Usak,435.95,0.65
+12,Mysore,435.92,0.65
+13,Novi Sad,433.93,0.64
+14,Shahr-e Kord,421.04,0.62
+15,Binzhou,401.02,0.59
+16,Callao,397.17,0.59
+17,Mannheim,393.10,0.58
+18,Ondo,391.05,0.58
+19,Jhansi,386.07,0.57
+20,Enshi,383.12,0.57
+21,Hubli-Dharwad,364.21,0.54
+22,Chiayi,363.08,0.54
+23,Shubra al-Khayma,357.11,0.53
+24,Coquimbo,355.06,0.53
+25,Santa Brbara dOeste,349.20,0.52
+26,Charlotte Amalie,347.16,0.52
+27,Tanshui,337.25,0.50
+28,Plock,329.28,0.49
+29,Adana,327.24,0.49
+30,Pachuca de Soto,327.20,0.49
+31,Kursk,326.18,0.48
+32,Ocumare del Tuy,321.24,0.48
+33,Firozabad,311.28,0.46
+34,Águas Lindas de Goiás,311.25,0.46
+35,Sanya,311.17,0.46
+36,Yantai,310.30,0.46
+37,Satna,308.28,0.46
+38,Bat Yam,303.33,0.45
+39,Tanza,303.24,0.45
+40,Sivas,302.25,0.45
+41,Tokat,300.22,0.45
+42,Cumaná,299.28,0.44
+43,Siegen,296.26,0.44
+44,Naju,293.27,0.44
+45,Deba Habe,291.29,0.43
+46,Tórshavn,290.33,0.43
+47,Czestochowa,290.29,0.43
+48,San Felipe de Puerto Plata,288.37,0.43
+49,San Felipe del Progreso,285.20,0.42
+50,Ife,284.32,0.42
+51,Tanauan,284.31,0.42
+52,Banjul,282.40,0.42
+53,Bradford,282.30,0.42
+54,Southend-on-Sea,279.32,0.41
+55,Hanoi,278.29,0.41
+56,Saint Louis,269.43,0.40
+57,Birgunj,268.36,0.40
+58,Duisburg,266.43,0.40
+59,Sultanbeyli,266.34,0.40
+60,Portoviejo,266.29,0.40
+61,Taizz,266.28,0.40
+62,Peoria,263.44,0.39
+63,Kaliningrad,262.41,0.39
+64,Fengshan,261.31,0.39
+65,Kaduna,259.44,0.38
+66,Masqat,255.46,0.38
+67,Mahajanga,251.43,0.37
+68,Changzhou,250.44,0.37
+69,Nam Dinh,250.41,0.37
+70,Paarl,250.39,0.37
+71,Huejutla de Reyes,248.43,0.37
+72,Bhavnagar,248.40,0.37
+73,Eskisehir,246.43,0.37
+74,Garland,246.42,0.37
+75,Ibirité,245.43,0.36
+76,Moscow,244.43,0.36
+77,Funafuti,244.42,0.36
+78,Sharja,244.41,0.36
+79,Pingxiang,243.47,0.36
+80,Allende,242.44,0.36
+81,Ilorin,242.42,0.36
+82,Oulu,241.46,0.36
+83,Saarbrücken,237.48,0.35
+84,Okara,235.49,0.35
+85,Grand Prairie,234.50,0.35
+86,Bagé,233.40,0.35
+87,Erlangen,230.45,0.34
+88,Kakamigahara,230.42,0.34
+89,Bandar Seri Begawan,229.43,0.34
+90,Udaipur,228.52,0.34
+91,Amroha,226.47,0.34
+92,Tsaotun,226.45,0.34
+92,Benguela,226.45,0.34
+92,Lincoln,226.45,0.34
+95,Sunnyvale,226.41,0.34
+96,Maringá,226.40,0.34
+97,Ríobamba,225.49,0.33
+98,Miraj,224.47,0.33
+99,Serpuhov,222.46,0.33
+100,Aparecida de Goiânia,221.48,0.33
+101,Ivanovo,221.45,0.33
+102,Matsue,220.42,0.33
+103,Merlo,218.49,0.32
+104,Liaocheng,217.45,0.32
+105,Nagareyama,216.55,0.32
+106,Rancagua,216.54,0.32
+107,Cianjur,216.52,0.32
+108,London,213.55,0.32
+109,Pangkal Pinang,209.52,0.31
+110,al-Qadarif,206.45,0.31
+111,Le Mans,205.53,0.30
+112,Brockton,204.47,0.30
+113,Città del Vaticano,204.44,0.30
+114,Bergamo,203.49,0.30
+114,San Miguel de Tucumán,203.49,0.30
+116,Buenaventura,203.48,0.30
+117,Rampur,203.47,0.30
+118,Aden,202.51,0.30
+119,Santo André,202.45,0.30
+120,Esfahan,202.43,0.30
+121,Tama,201.55,0.30
+122,Akishima,198.53,0.29
+123,Hagonoy,198.51,0.29
+124,Sogamoso,197.52,0.29
+125,Goiânia,197.50,0.29
+126,Tafuna,196.54,0.29
+127,Patras,196.53,0.29
+128,Kütahya,196.49,0.29
+129,Osmaniye,195.47,0.29
+130,Elista,194.51,0.29
+131,Halifax,194.49,0.29
+132,Poços de Caldas,193.57,0.29
+133,Probolinggo,192.57,0.29
+134,Usolje-Sibirskoje,192.50,0.29
+134,Apeldoorn,192.50,0.29
+136,Wroclaw,191.56,0.28
+137,Sucre,190.54,0.28
+138,Avellaneda,188.54,0.28
+139,Ciparay,188.52,0.28
+140,Tambaram,187.56,0.28
+140,Changhwa,187.56,0.28
+140,Uttarpara-Kotrung,187.56,0.28
+143,Bhusawal,184.55,0.27
+144,Batman,184.50,0.27
+145,Dzerzinsk,183.51,0.27
+146,Ljubertsy,180.56,0.27
+147,Bratislava,179.56,0.27
+147,Nagaon,179.56,0.27
+149,Ashgabat,178.55,0.26
+150,Yuncheng,176.60,0.26
+151,Pune,175.61,0.26
+152,Novotšerkassk,175.58,0.26
+153,Garden Grove,175.54,0.26
+154,Kermanshah,174.66,0.26
+155,Amersfoort,169.65,0.25
+156,Ueda,167.67,0.25
+157,Haining,166.65,0.25
+158,Gingoog,164.64,0.24
+159,Mit Ghamr,159.72,0.24
+160,Niznekamsk,159.68,0.24
+161,Anápolis,159.60,0.24
+162,Meixian,155.68,0.23
+163,Konotop,154.60,0.23
+164,Effon-Alaiye,152.68,0.23
+164,Shimoga,152.68,0.23
+166,San Juan Bautista Tuxtepec,152.65,0.23
+167,Florencia,151.67,0.23
+168,Woodridge,146.69,0.22
+169,Mandaluyong,145.70,0.22
+170,Salala,145.67,0.22
+171,Tianjin,144.70,0.21
+172,Sincelejo,144.67,0.21
+173,Arlington,144.66,0.21
+174,Kirovo-Tšepetsk,143.71,0.21
+175,Santa Fé,142.70,0.21
+176,Zhezqazghan,142.66,0.21
+177,Loja,141.71,0.21
+178,Touliu,141.67,0.21
+179,Santiago de Compostela,141.66,0.21
+180,Korolev,140.68,0.21
+181,Songkhla,140.64,0.21
+182,Tete,139.71,0.21
+182,Stockport,139.71,0.21
+184,Caracas,139.70,0.21
+185,José Azueta,139.67,0.21
+186,Kingstown,138.71,0.21
+187,Jelets,138.67,0.21
+188,Rockford,138.66,0.21
+189,Otsu,138.62,0.21
+190,Yamuna Nagar,137.70,0.20
+191,Chisinau,137.69,0.20
+192,Hohhot,137.66,0.20
+193,Vicente López,136.73,0.20
+194,Sokoto,136.64,0.20
+195,Malmö,135.74,0.20
+196,Najafabad,135.70,0.20
+196,Springs,135.70,0.20
+198,Lancaster,135.68,0.20
+199,Balašiha,134.73,0.20
+200,Addis Abeba,134.68,0.20
+201,Rizhao,133.72,0.20
+202,San Lorenzo,133.71,0.20
+203,Siliguri (Shiliguri),132.70,0.20
+203,Mwene-Ditu,132.70,0.20
+205,Battambang,131.73,0.20
+206,Hamilton,131.70,0.20
+207,Smolensk,131.67,0.20
+208,Manchester,129.72,0.19
+209,Tarlac,129.70,0.19
+209,Jalib al-Shuyukh,129.70,0.19
+209,Yaoundé,129.70,0.19
+212,Jastrzebie-Zdrój,129.64,0.19
+213,Rajkot,128.72,0.19
+214,Bhopal,128.71,0.19
+215,Bahía Blanca,127.75,0.19
+216,Valle de Santiago,127.71,0.19
+216,Cayenne,127.71,0.19
+218,A Coruña (La Coruña),127.70,0.19
+219,al-Ayn,127.68,0.19
+220,Monywa,127.66,0.19
+221,Jinzhou,126.73,0.19
+222,Simferopol,126.72,0.19
+223,Tabora,126.70,0.19
+224,Cuauhtémoc,126.68,0.19
+224,Cheju,126.68,0.19
+226,Udine,125.76,0.19
+227,´s-Hertogenbosch,124.74,0.19
+228,Sullana,124.72,0.19
+229,Lubumbashi,124.67,0.18
+230,Ciudad del Este,122.74,0.18
+231,Munger (Monghyr),122.72,0.18
+232,Shenzhen,122.71,0.18
+232,Compton,122.71,0.18
+234,Vila Velha,122.69,0.18
+235,Saint-Denis,121.69,0.18
+236,Gatineau,120.69,0.18
+237,Bamenda,119.74,0.18
+238,Lausanne,119.73,0.18
+239,Jamalpur,119.72,0.18
+240,Cuautla,119.71,0.18
+241,Sousse,119.70,0.18
+242,Sumqayit,118.75,0.18
+242,Cavite,118.75,0.18
+244,Córdoba,118.73,0.18
+245,Boa Vista,118.72,0.18
+245,Arecibo,118.72,0.18
+247,Mandi Bahauddin,118.68,0.18
+248,Purwakarta,118.67,0.18
+249,Tabriz,117.77,0.17
+250,Ezeiza,117.76,0.17
+251,Chandrapur,117.75,0.17
+252,Bucuresti,117.71,0.17
+253,Richmond Hill,116.78,0.17
+254,Madiun,115.74,0.17
+255,Haldia,115.71,0.17
+255,Cam Ranh,115.71,0.17
+257,Atlixco,115.70,0.17
+257,Botshabelo,115.70,0.17
+257,Tangail,115.70,0.17
+260,Surakarta,114.73,0.17
+261,Izumisano,114.72,0.17
+261,Nador,114.72,0.17
+261,Kuching,114.72,0.17
+264,Ranchi,113.78,0.17
+265,Zhoushan,113.74,0.17
+265,Qinhuangdao,113.74,0.17
+267,Klerksdorp,113.69,0.17
+268,Patiala,113.65,0.17
+269,Salé,112.75,0.17
+270,Hino,112.74,0.17
+271,Bayugan,112.73,0.17
+272,Tieli,112.70,0.17
+273,Székesfehérvár,111.75,0.17
+274,Inegöl,111.74,0.17
+275,Halle/Saale,111.73,0.17
+275,Faaa,111.73,0.17
+277,Tel Aviv-Jaffa,111.72,0.17
+278,Okinawa,111.68,0.17
+279,Nyeri,110.74,0.16
+280,Pemalang,110.72,0.16
+281,Laohekou,110.71,0.16
+282,Omiya,110.66,0.16
+283,Beira,109.75,0.16
+284,Junan,109.74,0.16
+285,Yerevan,109.73,0.16
+286,Bydgoszcz,109.72,0.16
+287,Papeete,108.78,0.16
+288,Sterling Heights,108.76,0.16
+289,Adoni,108.74,0.16
+290,Rio Claro,107.77,0.16
+291,Myingyan,107.76,0.16
+292,Juárez,107.74,0.16
+293,Katihar,107.73,0.16
+294,Tallahassee,107.71,0.16
+295,Nuuk,107.70,0.16
+296,Yingkou,106.77,0.16
+297,Kurgan,106.76,0.16
+298,Batna,106.75,0.16
+299,Bhimavaram,106.65,0.16
+300,Bilbays,105.75,0.16
+301,Cape Coral,104.77,0.16
+302,Lhokseumawe,104.74,0.16
+302,Augusta-Richmond County,104.74,0.16
+302,Halisahar,104.74,0.16
+305,Barcelona,103.76,0.15
+306,Roanoke,103.75,0.15
+306,Kamjanets-Podilskyi,103.75,0.15
+306,Bern,103.75,0.15
+309,Xi´angfan,103.74,0.15
+310,Lengshuijiang,102.76,0.15
+311,Pjatigorsk,102.74,0.15
+312,Skikda,101.78,0.15
+313,Zaoyang,101.74,0.15
+314,Southampton,100.76,0.15
+315,Imus,100.75,0.15
+316,Taguig,100.72,0.15
+317,Cabuyao,100.69,0.15
+318,Pak Kret,99.78,0.15
+319,Tabuk,99.77,0.15
+320,al-Hawiya,99.75,0.15
+321,El Alto,99.73,0.15
+322,Tongliao,98.78,0.15
+323,Karnal,98.73,0.15
+324,El Monte,97.79,0.15
+325,Blumenau,97.76,0.15
+326,Liepaja,97.74,0.15
+327,Araçatuba,97.72,0.14
+328,Antofagasta,96.78,0.14
+329,São Leopoldo,96.76,0.14
+330,Haiphong,96.72,0.14
+331,Kalisz,95.78,0.14
+332,Valparai,95.77,0.14
+332,Daugavpils,95.77,0.14
+334,Weifang,95.75,0.14
+335,Sungai Petani,95.72,0.14
+336,Athenai,94.82,0.14
+337,Berhampore (Baharampur),94.78,0.14
+338,Basel,93.75,0.14
+339,Kolpino,92.73,0.14
+340,Chatsworth,91.79,0.14
+340,Sorocaba,91.79,0.14
+342,Baybay,91.78,0.14
+343,Benin City,91.77,0.14
+344,Mexicali,91.76,0.14
+345,Luziânia,91.75,0.14
+346,Denizli,91.70,0.14
+347,Pyongyang,90.79,0.13
+348,Chapra,89.79,0.13
+349,Newcastle,89.78,0.13
+350,Alvorada,89.75,0.13
+351,Jaipur,89.74,0.13
+352,Bislig,88.80,0.13
+353,Guadalajara,88.79,0.13
+354,Vinh,87.82,0.13
+355,Kilis,86.81,0.13
+355,Nakhon Sawan,86.81,0.13
+357,Laiwu,85.79,0.13
+358,Poá,83.79,0.12
+358,Yuzhou,83.79,0.12
+360,Idfu,82.79,0.12
+361,Tšeboksary,82.76,0.12
+362,Emeishan,80.83,0.12
+363,San Bernardino,80.82,0.12
+364,Naçala-Porto,80.79,0.12
+365,Huai´an,80.77,0.12
+366,Okayama,78.80,0.12
+367,Syktyvkar,77.82,0.12
+368,Shikarpur,77.77,0.12
+369,Nabereznyje Tšelny,76.77,0.11
+370,Rustenburg,74.80,0.11
+371,Lapu-Lapu,73.80,0.11
+372,Omdurman,73.79,0.11
+373,Balurghat,73.76,0.11
+374,Fuzhou,71.80,0.11
+375,Kurashiki,71.77,0.11
+376,Tuguegarao,70.82,0.11
+377,Mwanza,68.79,0.10
+378,Kimberley,66.84,0.10
+379,Urawa,62.85,0.09
+380,Vitória de Santo Antão,58.86,0.09

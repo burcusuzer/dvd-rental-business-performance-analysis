@@ -16,18 +16,17 @@ WITH customer_metrics AS (
         MAX(r.rental_date) AS last_rental
     FROM 
         customer c
-    JOIN rental r 
-        ON
-        c.customer_id = r.customer_id
-    JOIN payment p
-        ON
-        p.rental_id = r.rental_id
+    JOIN 
+        rental r 
+        ON c.customer_id = r.customer_id
+    JOIN 
+        payment p 
+        ON p.rental_id = r.rental_id
     GROUP BY
         c.customer_id,
         c.first_name,
         c.last_name
 ),
-
 ranked_customers AS (
     SELECT 
         customer_id,
@@ -36,11 +35,10 @@ ranked_customers AS (
         lifetime_value,
         first_rental,
         last_rental,
-        RANK() OVER(ORDER BY lifetime_value DESC) AS customer_rank
+        RANK() OVER (ORDER BY lifetime_value DESC) AS customer_rank
     FROM 
         customer_metrics
 )
-
 SELECT
     customer_rank,
     customer_id,
@@ -57,13 +55,9 @@ ORDER BY
     customer_rank;
 
 /*
- Project: DVD Rental Business Performance Analysis
- Author: Burcu Süzer
- 
- Bonus Business Question:
- Which customers have a lifetime value above the average customer lifetime value?
- */
-
+Bonus Business Question:
+Which customers have a lifetime value above the average customer lifetime value?
+*/
 
 WITH customer_metrics AS (
     SELECT  
@@ -75,25 +69,23 @@ WITH customer_metrics AS (
         MAX(r.rental_date) AS last_rental
     FROM 
         customer c
-    JOIN rental r 
-        ON
-        c.customer_id = r.customer_id
-    JOIN payment p
-        ON
-        p.rental_id = r.rental_id
+    JOIN 
+        rental r 
+        ON c.customer_id = r.customer_id
+    JOIN 
+        payment p
+        ON p.rental_id = r.rental_id
     GROUP BY
         c.customer_id,
         c.first_name,
         c.last_name
 ),
-
 average_lifetime_value AS (
     SELECT 
-        AVG(lifetime_value) AS avg_clv
+        AVG(lifetime_value) AS avg_lifetime_value
     FROM 
         customer_metrics
 )
-
 SELECT 
     cm.customer_id,
     cm.customer_name,
@@ -106,6 +98,6 @@ FROM
 CROSS JOIN 
     average_lifetime_value alv
 WHERE
-    cm.lifetime_value > alv.avg_clv
+    cm.lifetime_value > alv.avg_lifetime_value
 ORDER BY
     cm.lifetime_value DESC;

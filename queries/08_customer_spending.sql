@@ -13,20 +13,19 @@ WITH customer_spending AS (
         SUM(p.amount) AS total_spent
     FROM
         customer c
-    JOIN payment p
-        ON
-        c.customer_id = p.customer_id
+    JOIN 
+        payment p
+        ON c.customer_id = p.customer_id
     GROUP BY
         c.customer_id,
         c.first_name,
         c.last_name
 )
-
 SELECT
     customer_id,
     customer_name,
     total_spent,
-    ROUND(AVG(total_spent) OVER (), 2) AS average_customer_spending
+    ROUND(AVG(total_spent) OVER (), 2) AS average_spent
 FROM
     customer_spending
 ORDER BY
@@ -44,33 +43,31 @@ WITH customer_spending AS (
             SUM(p.amount) AS total_spent
     FROM
         customer c
-    JOIN payment p
-            ON
-        c.customer_id = p.customer_id
+    JOIN 
+        payment p
+        ON c.customer_id = p.customer_id
     GROUP BY
             c.customer_id,
             c.first_name,
             c.last_name
 ),
-
 avg_spending AS (
     SELECT
         customer_id,
         customer_name,
         total_spent,
-        ROUND(AVG(total_spent) OVER (), 2) AS average_customer_spending
+        ROUND(AVG(total_spent) OVER (), 2) AS average_spent
     FROM
         customer_spending
 )
-
 SELECT 
     customer_id,
     customer_name,
     total_spent,
-    average_customer_spending
+    average_spent
 FROM
     avg_spending
 WHERE
-    total_spent > average_customer_spending
+    total_spent > average_spent
 ORDER BY
     total_spent DESC;

@@ -11,69 +11,109 @@ WITH rental_metrics AS (
         f.film_id, 
         f.title AS film_title,
         COUNT(r.rental_id) AS total_rentals,
-        ROUND(AVG(DATEDIFF(r.return_date, r.rental_date)), 1) AS average_rental_days
+        ROUND(AVG(DATEDIFF(r.return_date, r.rental_date)), 1) AS average_rental_days,
+        f.rental_duration AS allowed_rental_days
     FROM
         film f
-    JOIN inventory i
+    JOIN 
+        inventory i
         ON f.film_id = i.film_id 
-    JOIN rental r
+    JOIN 
+        rental r
         ON i.inventory_id = r.inventory_id 
-    WHERE r.return_date IS NOT NULL
+    WHERE 
+        r.return_date IS NOT NULL
     GROUP BY 
         f.film_id, 
-        f.title
+        f.title,
+        f.rental_duration
 )
 SELECT 
     film_id,
     film_title,
     total_rentals,
-    average_rental_days
+    average_rental_days,
+    allowed_rental_days
 FROM 
     rental_metrics
 ORDER BY
     average_rental_days DESC;
 
 /*
-Project: DVD Rental Business Performance Analysis
-Author: Burcu Süzer
- 
 Bonus Business Question:
-Which films are returned later than the average rental duration?
+Which films have the highest late return rate compared to their allowed rental duration?
 */
 
-WITH rental_metrics AS (
+WITH late_return_metrics AS (
+SELECT 
+    f.film_id,
+    f.title AS film_title,
+    COUNT(*) AS total_rentals,
+   f.rental_duration AS allowed_rental_days,
+    SUM(
+        CASE
+            WHEN DATEDIFF(r.return_date, r.rental_date) > f.rental_duration THEN 1
+            ELSE 0
+        END
+    ) AS late_returns
+FROM
+    film f
+JOIN
+    inventory i
+    ON f.film_id = i.film_id 
+JOIN rental r
+    ON i.inventory_id = r.inventory_id
+WHERE 
+    r.return_date IS NOT NULL    
+GROUP BY 
+    f.film_id, 
+    f.title,
+    f.rental_duration
+)
+SELECT 
+    film_id,
+    film_title,
+    allowed_rental_days,
+    late_returns,
+    ROUND(late_returns * 100 / total_rentals, 2) AS late_return_rate_pct
+FROM 
+    late_return_metrics
+ORDER BY 
+    late_return_rate_pct DESC;
+
+/*
+Bonus Business Question (2):
+Among late returns, which films have the highest average delay beyond the allowed rental duration?
+*/
+
+WITH late_return_metrics AS (
     SELECT
-        f.film_id, 
+        f.film_id,
         f.title AS film_title,
-        COUNT(r.rental_id) AS total_rentals,
-        AVG(DATEDIFF(r.return_date, r.rental_date)) AS average_rental_days
+        f.rental_duration AS allowed_rental_days,
+        COUNT(*) AS late_returns,
+        ROUND(AVG(DATEDIFF(r.return_date, r.rental_date) - f.rental_duration),2) AS average_delay_days
     FROM
         film f
     JOIN inventory i
-        ON f.film_id = i.film_id 
+        ON f.film_id = i.film_id
     JOIN rental r
-        ON i.inventory_id = r.inventory_id 
-    WHERE r.return_date IS NOT NULL
-    GROUP BY 
-        f.film_id, 
-        f.title
-),
-overall_avg_rental_days AS (
-    SELECT 
-        AVG(average_rental_days) AS overall_avg
-    FROM
-        rental_metrics
+        ON i.inventory_id = r.inventory_id
+    WHERE
+        r.return_date IS NOT NULL
+        AND DATEDIFF(r.return_date, r.rental_date) > f.rental_duration
+    GROUP BY
+        f.film_id,
+        f.title,
+        f.rental_duration
 )
-SELECT 
-    rm.film_id,
-    rm.film_title,
-    rm.total_rentals,
-    ROUND(rm.average_rental_days, 1) AS average_rental_days
+SELECT
+    film_id,
+    film_title,
+    allowed_rental_days,
+    late_returns,
+    average_delay_days
 FROM
-    rental_metrics rm
-CROSS JOIN 
-    overall_avg_rental_days oa
-WHERE 
-    rm.average_rental_days > oa.overall_avg
+    late_return_metrics
 ORDER BY
-    rm.average_rental_days DESC;
+    average_delay_days DESC;

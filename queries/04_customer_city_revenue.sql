@@ -12,11 +12,14 @@ WITH city_metrics AS (
         SUM(p.amount) AS total_revenue
     FROM
         city ci
-    JOIN address a 
+    JOIN  
+        address a 
         ON ci.city_id = a.city_id
-    JOIN customer c 
+    JOIN 
+        customer c 
         ON c.address_id = a.address_id
-    JOIN payment p
+    JOIN 
+        payment p 
         ON c.customer_id = p.customer_id
     GROUP BY
         ci.city
@@ -41,11 +44,14 @@ WITH city_metrics AS (
         SUM(p.amount) AS total_revenue
     FROM
         city ci
-    JOIN address a 
+    JOIN 
+        address a 
         ON ci.city_id = a.city_id
-    JOIN customer c 
+    JOIN 
+        customer c 
         ON c.address_id = a.address_id
-    JOIN payment p
+    JOIN 
+        payment p
         ON c.customer_id = p.customer_id
     GROUP BY
         ci.city
