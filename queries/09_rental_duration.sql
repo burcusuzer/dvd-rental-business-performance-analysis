@@ -40,6 +40,8 @@ ORDER BY
     average_rental_days DESC;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 Which films have the highest late return rate compared to their allowed rental duration?
 */
@@ -82,7 +84,9 @@ ORDER BY
     late_return_rate_pct DESC;
 
 /*
-Bonus Business Question (2):
+Bonus Analysis 2
+
+Bonus Business Question :
 Among late returns, which films have the highest average delay beyond the allowed rental duration?
 */
 

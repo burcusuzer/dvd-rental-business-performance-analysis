@@ -41,6 +41,8 @@ ORDER BY
     category_rank;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 What percentage of the total revenue does each category generate?
 */

@@ -34,6 +34,8 @@ ORDER BY
     city_rank;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 What percentage of total revenue does each customer city generate?
 */

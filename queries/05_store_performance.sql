@@ -47,6 +47,8 @@ WHERE
     store_rank = 1;
         
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 What percentage of the total revenue does each store contribute?
 */

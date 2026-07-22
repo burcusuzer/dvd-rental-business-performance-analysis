@@ -17,6 +17,8 @@ ORDER BY
     month;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 How did monthly revenue change compared to the previous month?
 */
@@ -49,7 +51,9 @@ ORDER BY
     month;
 
 /*
-Bonus Business Question(2):
+Bonus Analysis 2
+
+Bonus Business Question:
 Which months performed above the average monthly revenue?
 */
 WITH monthly_revenue AS (

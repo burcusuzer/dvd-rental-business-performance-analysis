@@ -55,6 +55,8 @@ ORDER BY
     customer_rank;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 Which customers have a lifetime value above the average customer lifetime value?
 */

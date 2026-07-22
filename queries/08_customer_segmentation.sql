@@ -46,6 +46,8 @@ SELECT
         total_spent DESC;
 
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 How many customers belong to each spending segment?
 */
@@ -89,7 +91,9 @@ ORDER BY
     spending_quartile;
 
 /*
-Bonus Business Question (2):
+Bonus Analysis 2
+
+Bonus Business Question :
 How does each spending segment compare in terms of average customer spending and contribution to total revenue?
 */
 

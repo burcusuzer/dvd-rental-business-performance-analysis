@@ -43,7 +43,9 @@ ORDER BY
     customer_rank;
 
 /*
-Bonus Business Question:
+Bonus Analysis 1
+
+Business Question:
 What percentage of the total revenue does each of the top 10 customers contribute?
 */
 

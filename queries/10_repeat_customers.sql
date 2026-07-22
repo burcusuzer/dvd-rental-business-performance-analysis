@@ -43,6 +43,8 @@ ORDER BY
     customer_rank;
     
 /*
+Bonus Analysis 1
+
 Bonus Business Question:
 What percentage of customers are repeat customers?
 */
@@ -82,7 +84,9 @@ FROM
     customer_types;
 
 /*
-Bonus Business Question (2):
+Bonus Analysis 2
+
+Bonus Business Question :
 How are repeat customers distributed by rental frequency?
 */
 WITH customer_rentals AS (
