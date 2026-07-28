@@ -45,6 +45,9 @@ A business-oriented SQL portfolio project that analyzes the MySQL Sakila databas
   - [Future Improvements](#future-improvements)
   - [Repository Structure](#repository-structure)
   - [About](#about)
+  - [Power BI Dashboard](#power-bi-dashboard)
+    - [Dashboard Pages](#dashboard-pages)
+    - [Dashboard Features](#dashboard-features)
 
 ## Project Overview
 
@@ -266,3 +269,22 @@ dvd-rental-business-performance-analysis/
 This project was created as part of my data analytics portfolio to demonstrate practical SQL skills by solving real-world business problems using the MySQL Sakila sample database.
 
 I focused not only on writing SQL queries but also on presenting the results through structured analyses, reusable query design, and clear project documentation.
+
+## Power BI Dashboard
+
+The SQL views created in this project were imported into Power BI to build interactive dashboards.
+
+### Dashboard Pages
+
+- Executive Dashboard
+- Customer Analytics
+
+### Dashboard Features
+
+- KPI Cards
+- Revenue Trend Analysis
+- Category Performance
+- Store Performance
+- Customer Segmentation
+- Customer Lifetime Value
+- Late Return Analysis

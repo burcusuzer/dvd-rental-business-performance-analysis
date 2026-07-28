@@ -2,9 +2,11 @@
 View: vw_category_revenue
 
 Purpose:
-Provides executive-level KPIs for the Power BI dashboard.
-Used for KPI cards including revenue, rentals, customers,
-and average revenue per customer.
+Provides category-level revenue and rental metrics
+for the Power BI Executive Dashboard.
+
+Used in:
+- Revenue by Category chart
 */
 
 CREATE OR REPLACE VIEW vw_category_revenue AS

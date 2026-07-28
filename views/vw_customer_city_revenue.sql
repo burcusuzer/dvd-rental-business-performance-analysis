@@ -1,3 +1,11 @@
+/*
+View: vw_customer_city_revenue
+Purpose:
+Provides executive-level KPIs for the Power BI dashboard.
+Used for KPI cards including revenue, rentals, customers,
+and average revenue per customer.
+*/
+
 CREATE OR REPLACE VIEW vw_customer_city_revenue AS
 
 SELECT

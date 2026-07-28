@@ -35,7 +35,7 @@ ranked_customers AS (
         lifetime_value,
         first_rental,
         last_rental,
-        RANK() OVER (ORDER BY lifetime_value DESC) AS customer_rank
+        ROW_NUMBER() OVER (ORDER BY lifetime_value DESC) AS customer_rank
     FROM 
         customer_metrics
 )
