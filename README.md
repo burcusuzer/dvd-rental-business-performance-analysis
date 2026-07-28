@@ -48,6 +48,9 @@ A business-oriented SQL portfolio project that analyzes the MySQL Sakila databas
   - [Power BI Dashboard](#power-bi-dashboard)
     - [Dashboard Pages](#dashboard-pages)
     - [Dashboard Features](#dashboard-features)
+    - [Dashboard Preview](#dashboard-preview)
+      - [Executive Dashboard](#executive-dashboard)
+      - [Customer Analytics](#customer-analytics)
 
 ## Project Overview
 
@@ -253,7 +256,7 @@ dvd-rental-business-performance-analysis/
 
 ## Future Improvements
 
-- Develop an interactive Power BI dashboard based on the SQL analysis.
+- Extend the Power BI dashboard with additional advanced analytics features.
 - Build KPI dashboards for revenue, customers, and store performance.
 - Perform RFM (Recency, Frequency, Monetary) customer segmentation.
 - Extend the project using Python (Pandas) for advanced analytics and visualization.
@@ -288,3 +291,13 @@ The SQL views created in this project were imported into Power BI to build inter
 - Customer Segmentation
 - Customer Lifetime Value
 - Late Return Analysis
+
+### Dashboard Preview
+
+#### Executive Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+#### Customer Analytics
+
+![Customer Analytics](screenshots/customer_analytics.png)
