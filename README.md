@@ -84,11 +84,11 @@ Nine reusable SQL views were imported into Power BI to build a two-page interact
 
 #### Executive Dashboard
 
-![Executive Dashboard](screenshots/executive_dashboard.png)
+![Executive Dashboard](images/executive_dashboard.png)
 
 #### Customer Analytics
 
-![Customer Analytics](screenshots/customer_analytics.png)
+![Customer Analytics](images/customer_analytics.png)
 
 ## Business Objectives
 
