@@ -1,8 +1,10 @@
 # DVD Rental Business Performance Analysis
-A business-oriented SQL portfolio project that analyzes the MySQL Sakila database through 24 analytical queries to uncover customer, revenue, store, and rental insights.
+
+A business-oriented SQL and Power BI portfolio project that analyzes the MySQL Sakila database through 24 business-focused analyses and a two-page interactive dashboard.
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DBeaver](https://img.shields.io/badge/DBeaver-372923?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -10,9 +12,9 @@ A business-oriented SQL portfolio project that analyzes the MySQL Sakila databas
 ## Project Highlights
 
 - 📊 **24 business-focused SQL analyses** across customer, revenue, store, and rental performance
-- 💼 **25+ real-world business questions** answered using analytical SQL
+- 📈 **Two-page interactive Power BI dashboard** for executive and customer analytics
 - 🧩 Demonstrates advanced SQL techniques including **CTEs, Window Functions, CASE, RANK(), ROW_NUMBER(), NTILE(), LAG(), and Conditional Aggregation**
-- 📁 Includes well-structured SQL scripts, CSV outputs, and comprehensive project documentation
+- 📁 Includes well-structured SQL scripts, reusable SQL views, CSV outputs, dashboard screenshots, and comprehensive project documentation
 
 ## Table of Contents
 
@@ -20,6 +22,12 @@ A business-oriented SQL portfolio project that analyzes the MySQL Sakila databas
   - [Project Highlights](#project-highlights)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
+  - [Power BI Dashboard](#power-bi-dashboard)
+    - [Dashboard Pages](#dashboard-pages)
+    - [Dashboard Features](#dashboard-features)
+    - [Dashboard Preview](#dashboard-preview)
+      - [Executive Dashboard](#executive-dashboard)
+      - [Customer Analytics](#customer-analytics)
   - [Business Objectives](#business-objectives)
   - [Dataset](#dataset)
   - [Tools \& Technologies](#tools--technologies)
@@ -43,22 +51,44 @@ A business-oriented SQL portfolio project that analyzes the MySQL Sakila databas
     - [10. Repeat Customers](#10-repeat-customers)
   - [Key Insights](#key-insights)
   - [Future Improvements](#future-improvements)
-  - [Repository Structure](#repository-structure)
   - [About](#about)
-  - [Power BI Dashboard](#power-bi-dashboard)
-    - [Dashboard Pages](#dashboard-pages)
-    - [Dashboard Features](#dashboard-features)
-    - [Dashboard Preview](#dashboard-preview)
-      - [Executive Dashboard](#executive-dashboard)
-      - [Customer Analytics](#customer-analytics)
 
 ## Project Overview
 
 This project analyzes the DVD Rental (Sakila) database to answer real-world business questions related to customer behavior, revenue, store performance, customer segmentation, and rental activity.
 
-Using SQL, this project transforms raw transactional data into meaningful business insights through analytical queries, Common Table Expressions (CTEs), Window Functions, and aggregate calculations.
+Using SQL, the project transforms raw transactional data into meaningful business insights through analytical queries, Common Table Expressions (CTEs), Window Functions, and aggregate calculations. Reusable SQL views then provide structured datasets for an interactive Power BI dashboard.
 
-The goal is to demonstrate practical SQL skills by solving business-oriented problems similar to those encountered by Business Intelligence and Data Analysts.
+The goal is to demonstrate an end-to-end analytics workflow similar to those used by Business Intelligence and Data Analysts: defining business questions, querying and validating data, preparing reporting views, and presenting insights through dashboards.
+
+## Power BI Dashboard
+
+Nine reusable SQL views were imported into Power BI to build a two-page interactive dashboard focused on executive performance and customer analytics.
+
+### Dashboard Pages
+
+- Executive Dashboard
+- Customer Analytics
+
+### Dashboard Features
+
+- KPI Cards
+- Revenue Trend Analysis
+- Category Performance
+- Store Performance
+- Customer Segmentation
+- Customer Lifetime Value
+- Late Return Analysis
+
+### Dashboard Preview
+
+#### Executive Dashboard
+
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+#### Customer Analytics
+
+![Customer Analytics](screenshots/customer_analytics.png)
 
 ## Business Objectives
 
@@ -69,7 +99,7 @@ The goal is to demonstrate practical SQL skills by solving business-oriented pro
 - Segment customers according to their spending behavior.
 - Analyze rental duration and late return patterns.
 - Identify repeat customers and evaluate customer loyalty.
-- Support business decision-making using SQL analysis.
+- Support business decision-making through SQL analysis and dashboard reporting.
 
 ## Dataset
 
@@ -82,6 +112,7 @@ The database includes information about customers, films, rentals, payments, sto
 - SQL
 - MySQL
 - DBeaver
+- Power BI
 - Visual Studio Code
 - Git
 - GitHub
@@ -90,7 +121,6 @@ The database includes information about customers, films, rentals, payments, sto
 
 ```text
 dvd-rental-business-performance-analysis/
-│
 ├── queries/
 │   ├── 01_top_customers.sql
 │   ├── 02_category_revenue.sql
@@ -103,12 +133,48 @@ dvd-rental-business-performance-analysis/
 │   ├── 09_rental_duration.sql
 │   └── 10_repeat_customers.sql
 │
+├── views/
+│   ├── vw_category_revenue.sql
+│   ├── vw_customer_city_revenue.sql
+│   ├── vw_customer_kpis.sql
+│   ├── vw_customer_lifetime_value.sql
+│   ├── vw_customer_segmentation.sql
+│   ├── vw_kpi_summary.sql
+│   ├── vw_late_return_analysis.sql
+│   ├── vw_monthly_revenue.sql
+│   └── vw_store_performance.sql
+│
 ├── results/
+│   ├── 01_top_customer_revenue_share.csv
 │   ├── 01_top_customers.csv
 │   ├── 02_category_revenue.csv
-│   ├── ...
+│   ├── 02_category_revenue_share.csv
+│   ├── 03_monthly_revenue.csv
+│   ├── 03_monthly_revenue_above_average.csv
+│   ├── 03_monthly_revenue_mom_change.csv
+│   ├── 04_customer_city_revenue.csv
+│   ├── 04_customer_city_revenue_share.csv
+│   ├── 05_store_performance.csv
+│   ├── 05_store_revenue_share.csv
+│   ├── 06_popular_movies.csv
+│   ├── 06_top10_movie_revenue_share.csv
+│   ├── 07_above_average_clv.csv
+│   ├── 07_customer_lifetime_value.csv
+│   ├── 08_customer_segment_distribution.csv
+│   ├── 08_customer_segment_performance.csv
+│   ├── 08_customer_segmentation.csv
+│   ├── 09_average_delay.csv
+│   ├── 09_late_return_rate.csv
+│   ├── 09_rental_duration.csv
+│   ├── 10_repeat_customer_distribution.csv
+│   ├── 10_repeat_customer_rate.csv
 │   └── 10_repeat_customers.csv
 │
+├── screenshots/
+│   ├── customer_analytics.png
+│   └── executive_dashboard.png
+│
+├── LICENSE
 └── README.md
 ```
 
@@ -172,75 +238,75 @@ dvd-rental-business-performance-analysis/
 
 ### 01. Top Customers
 
-- Main Analysis: `results/01_top_customers.csv`
-- Revenue Contribution of Top Customers: `results/01_top_customer_revenue_share.csv`
+- Main Analysis: [View result](results/01_top_customers.csv)
+- Revenue Contribution of Top Customers: [View result](results/01_top_customer_revenue_share.csv)
 
 ---
 
 ### 02. Category Revenue
 
-- Main Analysis: `results/02_category_revenue.csv`
-- Revenue Share by Category: `results/02_category_revenue_share.csv`
+- Main Analysis: [View result](results/02_category_revenue.csv)
+- Revenue Share by Category: [View result](results/02_category_revenue_share.csv)
 
 ---
 
 ### 03. Monthly Revenue
 
-- Main Analysis: `results/03_monthly_revenue.csv`
-- Month-over-Month Revenue Change: `results/03_monthly_revenue_mom_change.csv`
-- Above-Average Revenue Months: `results/03_monthly_revenue_above_average.csv`
+- Main Analysis: [View result](results/03_monthly_revenue.csv)
+- Month-over-Month Revenue Change: [View result](results/03_monthly_revenue_mom_change.csv)
+- Above-Average Revenue Months: [View result](results/03_monthly_revenue_above_average.csv)
 
 ---
 
 ### 04. Customer City Revenue
 
-- Main Analysis: `results/04_customer_city_revenue.csv`
-- Revenue Share by Customer City: `results/04_customer_city_revenue_share.csv`
+- Main Analysis: [View result](results/04_customer_city_revenue.csv)
+- Revenue Share by Customer City: [View result](results/04_customer_city_revenue_share.csv)
 
 ---
 
 ### 05. Store Performance
 
-- Main Analysis: `results/05_store_performance.csv`
-- Revenue Share by Store: `results/05_store_revenue_share.csv`
+- Main Analysis: [View result](results/05_store_performance.csv)
+- Revenue Share by Store: [View result](results/05_store_revenue_share.csv)
 
 ---
 
 ### 06. Popular Movies
 
-- Main Analysis: `results/06_popular_movies.csv`
-- Revenue Contribution of Top 10 Rented Movies: `results/06_top10_movie_revenue_share.csv`
+- Main Analysis: [View result](results/06_popular_movies.csv)
+- Revenue Contribution of Top 10 Rented Movies: [View result](results/06_top10_movie_revenue_share.csv)
 
 ---
 
 ### 07. Customer Lifetime Value
 
-- Main Analysis: `results/07_customer_lifetime_value.csv`
-- Customers Above Average CLV: `results/07_above_average_clv.csv`
+- Main Analysis: [View result](results/07_customer_lifetime_value.csv)
+- Customers Above Average CLV: [View result](results/07_above_average_clv.csv)
 
 ---
 
 ### 08. Customer Segmentation
 
-- Customer Spending Segmentation: `results/08_customer_segmentation.csv`
-- Customer Distribution by Spending Segment: `results/08_customer_segment_distribution.csv`
-- Spending Segment Performance: `results/08_customer_segment_performance.csv`
+- Customer Spending Segmentation: [View result](results/08_customer_segmentation.csv)
+- Customer Distribution by Spending Segment: [View result](results/08_customer_segment_distribution.csv)
+- Spending Segment Performance: [View result](results/08_customer_segment_performance.csv)
 
 ---
 
 ### 09. Rental Duration
 
-- Main Analysis: `results/09_rental_duration.csv`
-- Late Return Rate by Film: `results/09_late_return_rate.csv`
-- Average Delay Beyond Allowed Rental Duration: `results/09_average_delay.csv`
+- Main Analysis: [View result](results/09_rental_duration.csv)
+- Late Return Rate by Film: [View result](results/09_late_return_rate.csv)
+- Average Delay Beyond Allowed Rental Duration: [View result](results/09_average_delay.csv)
 
 ---
 
 ### 10. Repeat Customers
 
-- Main Analysis: `results/10_repeat_customers.csv`
-- Repeat Customer Rate: `results/10_repeat_customer_rate.csv`
-- Repeat Customer Distribution by Rental Frequency: `results/10_repeat_customer_distribution.csv`
+- Main Analysis: [View result](results/10_repeat_customers.csv)
+- Repeat Customer Rate: [View result](results/10_repeat_customer_rate.csv)
+- Repeat Customer Distribution by Rental Frequency: [View result](results/10_repeat_customer_distribution.csv)
 
 ## Key Insights
 
@@ -256,48 +322,13 @@ dvd-rental-business-performance-analysis/
 
 ## Future Improvements
 
-- Extend the Power BI dashboard with additional advanced analytics features.
-- Build KPI dashboards for revenue, customers, and store performance.
+- Create reusable DAX measures for key business KPIs.
+- Add a dedicated Date table for advanced time intelligence and filtering.
 - Perform RFM (Recency, Frequency, Monetary) customer segmentation.
 - Extend the project using Python (Pandas) for advanced analytics and visualization.
 
-## Repository Structure
-
-- **queries/**: SQL scripts used for each business analysis.
-- **results/**: CSV outputs generated from each SQL query.
-- **README.md**: Project documentation and summary.
-
 ## About
 
-This project was created as part of my data analytics portfolio to demonstrate practical SQL skills by solving real-world business problems using the MySQL Sakila sample database.
+This project was created as part of my data analytics portfolio to demonstrate practical SQL and Power BI skills by solving real-world business problems using the MySQL Sakila sample database.
 
-I focused not only on writing SQL queries but also on presenting the results through structured analyses, reusable query design, and clear project documentation.
-
-## Power BI Dashboard
-
-The SQL views created in this project were imported into Power BI to build interactive dashboards.
-
-### Dashboard Pages
-
-- Executive Dashboard
-- Customer Analytics
-
-### Dashboard Features
-
-- KPI Cards
-- Revenue Trend Analysis
-- Category Performance
-- Store Performance
-- Customer Segmentation
-- Customer Lifetime Value
-- Late Return Analysis
-
-### Dashboard Preview
-
-#### Executive Dashboard
-
-![Executive Dashboard](screenshots/executive_dashboard.png)
-
-#### Customer Analytics
-
-![Customer Analytics](screenshots/customer_analytics.png)
+I focused on the complete analytics workflow: writing SQL queries, creating reusable reporting views, validating exported results, and presenting the findings through interactive dashboards and clear project documentation.
